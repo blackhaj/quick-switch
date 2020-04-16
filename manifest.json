@@ -8,5 +8,13 @@
     {
       "matches": ["<all_urls>"],
       "js": ["jquery-3.1.1.min.js","cat.js"]
-  }]
+  }],
+  "page_action": {
+    "default_icon": {
+      "16": "wink.png",
+      "32": "wink.png",
+      "48": "wink.png",
+      "128": "wink.png"
+    }
+  }
 }
