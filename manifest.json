@@ -1,8 +1,7 @@
 {
   "name": "Quick Switch",
-  "description" : "An extension to quick switch between your current webpage and a more family friendly friendly version",
+  "description" : "An extension to quickly switch between your current webpage and a more family friendly friendly version",
   "version": "1.0",
-  "permissions": ["tabs", "commands", "background"],
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -11,10 +10,13 @@
   }],
   "page_action": {
     "default_icon": {
-      "16": "wink.png",
-      "32": "wink.png",
-      "48": "wink.png",
-      "128": "wink.png"
+      "16": "wink.png"
     }
+  },
+  "icons": {
+    "16": "lightning.png",
+    "32": "lightning.png",
+    "48": "lightning.png",
+    "128": "lightning.png"
   }
 }
